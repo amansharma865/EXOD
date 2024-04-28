@@ -593,11 +593,13 @@ input:checked ~ .slide12{
     width: 2.5vw;
 }
 #location{
+    background-color: rgb(200, 200, 200);
     margin-left: 15px;
     padding: 15px 10px;
     width: 40vw;
     border-radius: 10px;
     font-size: 15px;
+    border: none;
 }
 .nearbystores{
     padding: 10px ;
@@ -621,10 +623,11 @@ input:checked ~ .slide12{
 }
 .ourstorescard{
     border-radius: 20px;
-    border: 2px solid rgb(57, 57, 57);
+    /* border: 2px solid rgb(57, 57, 57); */
     width: 100%;
     height: 30vh;
-    /* background-color: beige; */
+    /* background-color: rgb(246, 242, 237); */
+    background-color: rgb(255, 247, 240);
     margin: auto;
     margin-top: 20px;
     padding: 20px;
