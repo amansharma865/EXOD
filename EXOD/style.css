@@ -67,8 +67,9 @@
 .sidebarlogo img{
     position: absolute;
     width: 6.2vw;
+    /* width: 95px; */
     top: 0;
-
+    height: vh;
 }
 /* .a1{
     position: absolute;
@@ -534,9 +535,10 @@ footer{
     height: 100vh; 
     width: 550px;
     position: absolute;
-    background-color: rgb(255, 200, 137);
+    background-color: rgb(255, 255, 255);
     transition: 0.5s ease;
     transform: translateX(550px);
+    border: 2px solid black;
 }
 .slide12 h1{
     color:rgb(0, 0, 0);
@@ -574,4 +576,119 @@ footer{
 }
 input:checked ~ .slide12{
     transform: translateX(0);
+}
+
+.ourstores{
+    display: flex;
+    flex-direction: column;
+
+}
+.searchbarourstores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+}
+.searchbarourstores img{
+    width: 2.5vw;
+}
+#location{
+    margin-left: 15px;
+    padding: 15px 10px;
+    width: 40vw;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.nearbystores{
+    padding: 10px ;
+    width:65vw;
+    /* height: 50vh; */
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+}
+.uprourstores{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgba(179, 0, 0, 0.4); */
+}
+.uprourstores span img{
+    width:  4vw;
+}
+.ourstorescard{
+    border-radius: 20px;
+    border: 2px solid rgb(57, 57, 57);
+    width: 100%;
+    height: 30vh;
+    /* background-color: beige; */
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.middlepartcard{
+    height: 3vw;
+    width: 96%;
+    /* background-color:antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottompartcard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ourstoresbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toppartcard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    /* background-color: #fff; */
+}
+.toppartcard div{
+    font-size: 25px;
+    font-weight: bold;
+}
+.toppartcard span{
+    font-size: 12px;
+    font-weight: 600;
+}
+.tick span img{
+    width: 1.5vw;
+}
+.tick span{
+    font-size: 15px;
+}
+
+.maptick{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.locationourstores{
+    font-size: 15px;
+}
+.timeos{
+    font-size: 15px;
+}
+.ourstoresbtn button{
+    padding: 8px 30px;
+    border-radius: 50px;
+    background-color: rgb(208, 91, 86);
+    border: none;
+    color: white;
+}
+.uprourstores span{
+    font-size: 15px;
 }
