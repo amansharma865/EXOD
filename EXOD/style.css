@@ -695,3 +695,8 @@ input:checked ~ .slide12{
 .uprourstores span{
     font-size: 15px;
 }
+
+
+.rsidecr img{
+    width: 32vw;
+}
